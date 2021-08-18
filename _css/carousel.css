@@ -1,0 +1,104 @@
+#nothing {
+    color: #c5cae9;
+    color: #3f51b5;
+    color: #1a237e;
+}
+
+.carousel {
+    height: auto;
+    border-top-right-radius: 25px !important;
+    border-top-left-radius: 25px !important;
+    border-bottom-right-radius: 25px !important;
+    border-bottom-left-radius: 25px !important;
+}
+
+.carousel-item {
+    height: 100%;
+}
+
+#carousel-item {
+    border-radius: 25px;
+    height:100%;
+    position: relative;
+    overflow: hidden;
+}
+
+.carousel-fixed-item button {
+    border: 1px solid white;
+    border-radius: 25px;
+    color: #1a237e;
+    background-color: white;
+}
+
+.carousel .indicators .indicator-item {
+    height: 15px !important;
+    width: 15px !important;
+    border: 2px solid #1a237e;
+    padding: 3px;
+    /* margin: 5px !important; */
+    margin-top: -5px !important;
+    margin-left: 15px !important;
+}
+
+.carousel .indicators .indicator-item.active {
+    height: 15px !important;
+    width: 15px !important;
+    border: 2px solid white;
+    background-color: #1a237e !important;
+    padding: 3px;
+}
+
+#carousel-item img {
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 9999;
+}
+
+#cont-home {
+    position: relative;
+}
+
+#owl-nav {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    z-index: 9999;
+    width: 90%;
+    height: 30px;
+}
+
+#carousel-prev {
+    position: absolute;
+    width: 50%;
+}
+
+#carousel-prev i {
+    position: absolute;
+    left: 0%;
+    font-size: 3em !important;
+    border-radius: 50%;
+    color: #1a237e;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.45);
+    background-color: white;
+    border: 1px solid #c5cae9;
+}
+
+#carousel-next {
+    position: absolute;
+    left: 50%;
+    width: 50%;
+}
+
+#carousel-next i {
+    position: absolute;
+    left: 95%;
+    font-size: 3em !important;
+    border-radius: 50%;
+    color: #1a237e;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.45);
+    background-color: white;
+    border: 1px solid #c5cae9;
+}

@@ -1,0 +1,267 @@
+#nothing {
+    color: #e8eaf6;
+    color: #c5cae9;
+    color: #9fa8da;
+    color: #7986cb;
+    color: #5c6bc0;
+    color: #3f51b5;
+    color: #3949ab;
+    color: #303f9f;
+    color: #283593;
+    color: #1a237e;
+    color: #8c9eff;
+    color: #536dfe;
+    color: #3d5afe;
+    color: #304ffe;
+}
+
+#card-col {
+    margin-top: 40px;
+    position: relative;
+}
+
+#card {
+    border-radius: 25px;
+    /* margin-left: 50px; */
+    background-color: white;
+    /* width: 450px; */
+    height: 200px;
+    box-shadow: 2px 2px 3px rgba(0, 0, 0, .35);
+    transition: .4s;
+}
+
+#cont-cards {
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #1a237e;
+    border-radius: 25px;
+    box-shadow: 2px 2px 3px rgba(0, 0, 0, .35);
+}
+#card-content {
+    position: relative;
+    height: 100%;
+    width: 100%;
+    left: 0%;
+}
+
+
+#card #content {
+    position: absolute;
+    width: 50%;
+    top: 0;
+    left: 50%;
+    height: 100%;
+    
+}
+ #card #title {
+    padding-left: 10px;
+    color: #3f51b5;
+    
+ }
+
+ #title h5 {
+    font-size: 1.25em !important;
+    font-weight: bolder !important;
+ }
+
+ #card #address {
+     display: inline-block;
+     width: 100%;
+ }
+
+ #address legend {
+     font-size: .6em;
+     color: #1a237e;
+     display: inline-block;
+     padding-left: 10px;
+ }
+
+#card #image {
+    border-radius: 25px; 
+    width: 50%;
+    height: 100%;
+    position: relative;
+    overflow: hidden;
+    box-shadow: 2px 2px 3px rgba(0, 0, 0, .35);
+}
+
+#image img {
+    position: absolute;
+    left: -100px;
+    height: 100%;
+}
+
+#image-caption p {
+    position: absolute;
+    width: 100%;
+    padding: 10px;
+    height: 110%;
+    padding-top: 20px;
+    background-color: rgba(0, 0, 0, .40);
+    color: white;
+    top: -10%;
+    opacity: 0;
+    transition: .6s;
+    font-size: .75em;
+    
+}
+#card-actions {
+    height: 50%;
+    position: relative;
+}
+
+.my-button {
+    width: 70%;
+    height: 25px;
+    border-radius: 25px;
+    color: white;
+    cursor: pointer;
+}
+
+#card-more {
+    position: absolute;
+    top: 30%;
+    left: 10%;
+    border: 1px solid #3f51b5;
+    background-color: white;
+    color: #1a237e;
+}
+
+#card-more:hover {
+    background-color: #1a237e;
+    color: white;
+}
+
+#card-act {
+    position: absolute;
+    top: 60%;
+    left: 10%;
+    border: 1px solid #3f51b5;
+    background-color: #1a237e;
+    color: white;
+}
+
+#card-act:hover {
+    background-color: white;
+    color: #1a237e;
+}
+
+#card:hover #image-caption>p{
+    opacity: 1;
+}
+
+.pagination li.active a {
+    background-color: white;
+    color: #1a237e !important;
+}
+
+.pagination li a {
+    color: white !important;
+}
+
+#card:hover {
+    border: 1px solid #3f51b5 !important;
+}
+
+#card-filter {
+    border-radius: 25px;
+    padding-left: 5px;
+    padding-right: 5px;
+    width: 165px;
+    margin-left: 5px;
+    transition: .4s;
+    border: 1px solid #1a237e;
+
+}
+
+#card-filter .btn {
+    color: #1a237e !important;
+    background-color: white !important;
+}
+
+#card-filter input {
+    border: 1px solid #1a237e;
+    border-radius: 25px;
+    line-height: 5px;
+    margin-top: 15px;
+}
+
+.select-wrapper input.select-dropdown {
+    
+}
+
+.filter-item {
+    border: 1px solid #1a237e;
+    color: #1a237e;
+    background-color: white;
+    border-radius: 25px;
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin: 15px;
+    height: 40px;
+}
+
+#code{
+    background-color:  red !important;
+    border: 2px solid red !important;
+}
+
+.dropdown-trigger {
+    height: 15px !important;
+    border: 2px solid red;
+}
+
+
+
+#filter-trigger {
+    display: flex;
+    padding-top: 8px;
+    text-transform: uppercase;
+    padding-left: 20px;
+    background-color: #1a237e;
+    border: 1px solid white;
+    color: white;
+    width: 150px;
+    cursor: pointer;
+    position: relative;
+}
+
+#filter-trigger i {
+    position: absolute;
+    top: 55%;
+    left: 75%;
+    transform: translate(-50%,-50%);
+}
+
+
+.input-field {
+    height: 40px;
+    margin-top: 0px !important;
+}
+
+.input-field input {
+    height: 35px !important;
+}
+
+.dropdown-trigger  {
+    background-color: white !important;
+    padding-top: 6px !important;
+    box-shadow: none !important;
+    color: #1a237e !important;
+}
+
+#filter-actions {
+    display: none;
+}
+
+@media only screen and (max-width: 600px) {
+   #card {
+      /* transform: scale(.95); */
+      /* margin-left: -40px; */
+   }
+ }
+
+ 

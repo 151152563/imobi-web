@@ -1,0 +1,9 @@
+#nav {
+    background-color: #1a237e;
+    z-index: 999;
+}
+
+nav {
+    margin-top: -2px !important;
+    background-color: #1a237e !important;
+}

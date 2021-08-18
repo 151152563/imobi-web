@@ -1,0 +1,167 @@
+#nothing {
+    color: #c5cae9;
+    color: #3f51b5;
+    color: #1a237e;
+}
+
+#container-about-cards {
+    margin-top: 40px;
+
+}
+
+
+#container-master {
+    background-color: #c5cae9;
+    border-radius: 25px;
+}
+
+
+#row-infos-card {
+    height: 70vh;
+}
+
+#col-stats-card {
+    height: 70vh;
+}
+
+#row-legends-card {
+    height: 50vh;
+    background-color: #3f51b5;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, .35);
+    position: relative;
+}
+
+#infos {
+    color: white;
+    padding-top: 60px;
+    padding-left: 30px;
+}
+
+#info-col {
+    position: relative;
+    margin-bottom: 20px;
+}
+
+#info-col i {
+    position: absolute;
+}
+
+#info-legend {
+    margin-left: 35px;
+    text-transform: uppercase;
+    margin-top: -1px;
+    font-size: 1em;
+    position: absolute;
+}
+
+#info-value {
+    position: relative;
+}
+
+#info-legend-value {
+    position: absolute;
+    font-size: 1em;
+    margin-top: -2px;
+    margin-left: -5px;
+}
+
+.indicator {
+    background-color: #1a237e;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    padding: 5px;
+    color: white;
+    border-radius: 25px;
+}
+
+#row-contact-card {
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, .35);
+    height: 18vh;
+    background-color: white;
+    position: relative;
+    color: #1a237e !important;
+}
+
+#infos2 {
+    color: #1a237e;
+    padding-top: 60px;
+    padding-left: 30px;
+}
+
+#col-desc-card {
+    height: 70vh;
+    background-color: #3f51b5;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, .35);
+    z-index: 99999;
+}
+
+#row-desc-card {
+    position: relative;
+}
+
+#row-desc-card p {
+    width: 80%;
+    padding-top: 60px;
+    font-size: 1.2em;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    margin-left: 10%;
+}
+
+#map {
+    background-color: white;
+    height: 30vh;
+    position: relative;
+}
+
+#row-map-cards {
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, .35);
+    position: relative;
+}
+
+#map img {
+    width: 100%;
+    height: 100%;
+}
+
+
+#img-card {
+    position: relative;
+}
+
+#img-card img {
+    width: 100%;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, .35);
+}
+
+#img-legend {
+    position: absolute;
+    top: 90%;
+    left: 10%;
+    transform: translate(-50%, -50%);
+    z-index: 99;
+    width: auto;
+    color: white;
+    font-size: 1.7em;
+    border-radius: 25px;
+    background-color: rgba(0, 0, 0, .35);
+    padding: 10px;
+}
+
+@media only screen and (max-width: 600px) {
+    #row-infos-card,
+    #col-stats-card,
+    #row-legends-card,
+    #row-contact-card,
+    #col-desc-card {
+        height: auto !important;
+    }
+    #infos {
+        margin-top: 20px;
+    }
+    #img-legend {
+        top: 80%;
+        left: 20%;
+    }
+}

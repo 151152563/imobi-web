@@ -1,0 +1,20 @@
+body {
+    margin:0;
+    padding: 0;
+    overflow-x: hidden;
+    overflow-y: auto;
+    border: 2x solid green;
+}
+
+#main {
+    background-color: white;
+    transition: all .3s ease-in-out;
+    animation: all .3s ease-in-out;
+    margin-top: 10vh;
+}
+
+#content-main {
+    transition: all .3s ease-in-out;
+    animation: all .3s ease-in-out;
+    z-index: 9999999;
+}

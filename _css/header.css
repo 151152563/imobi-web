@@ -1,0 +1,79 @@
+#nothing {
+    color: #e8eaf6;
+    color: #c5cae9;
+    color: #9fa8da;
+    color: #7986cb;
+    color: #5c6bc0;
+    color: #3f51b5;
+    color: #3949ab;
+    color: #303f9f;
+    color: #283593;
+    color: #1a237e;
+    color: #8c9eff;
+    color: #536dfe;
+    color: #3d5afe;
+    color: #304ffe;
+}
+#row-head {
+    margin-top: -5px;
+    position: relative;
+    height: 30vh;
+    overflow: hidden !important;
+}
+
+#row-head  img{
+    position: absolute;
+    width: 100%;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+#row-head h1{
+    position: absolute;
+    z-index: 99;
+    /* color: red; */
+    font-size: 8em;
+    /* -webkit-text-fill-color: #047BD7; */
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke: 3px white;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+#back-head {
+    /* position: absolute; */
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    z-index: 9;
+    height: 100%;
+    width: 100%;
+    /* display: none; */
+    background-color: rgba(50, 50, 50, .55);
+    
+}
+
+
+@media only screen and (max-width: 600px) {
+    #row-head {
+        margin-top: -5px;
+        position: relative;
+        height: 30vh;
+        overflow: hidden !important;
+    }
+    
+
+}
+ 
+#row-head .carousel {
+    position: absolute;
+    z-index: 99999;
+    border: 2px solid red;
+    top: 50% !important;
+    left: 50% !important;
+    width: 100% !important;
+    height: 100%;
+    transform: translate(-50%,-50%) !important;
+}

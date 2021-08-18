@@ -1,0 +1,14 @@
+
+#about-carousel-item {
+    z-index: 9999;
+    height: 100%;
+    background-color: rgba(0, 0, 0, .45);
+}
+
+#about-carousel-item p{
+    width: 40%;
+    margin-left: 10%;
+    margin-top: 10%;
+    height: 90%;
+    color: white;
+}
